@@ -1,0 +1,35 @@
+.Amaincontainer
+{
+    width: 1120px;
+    height: 1700px;
+    background-color:#dddff6;;
+    margin-left: 288px;
+    margin-top: 19px;
+    border-radius: 39px;
+    position: absolute;
+    box-shadow: 8px 6px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.Asubcontainer
+{
+    overflow: hidden;
+    font-size: 20px;
+    width: 1060px;
+    height: 1650px;
+    background-color: transparent;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 39px;
+    position: absolute;
+}
+.aboutmainheading
+{
+    text-align: center;
+}
+.underlinebelowh1
+{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    color: black;
+    
+}

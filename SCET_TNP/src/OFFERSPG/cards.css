@@ -1,0 +1,101 @@
+.apllicationcontainerframe
+{
+    width: 625px;
+     height: 780px;
+     background: #D7DAF8;
+    margin-top: 30px;
+    margin-left: 288px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 8px 6px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.appllicationframe {
+    border-radius: 30px;
+    
+
+    width: 617px;
+    height: 746px;
+
+    overflow-y: scroll;
+  }
+  .applyframe {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    margin: 25px 12px;
+    border-radius: 25px;
+    background-color: #fff;
+  }
+  .headingofapllicationframe
+  {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 50px;
+    
+  }
+  .lineunderheading
+  {
+    width: 93%;
+    background-color: black;
+    color: black;
+    height: 1px;
+  }
+  
+  .companylogo {
+
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .companylogo img {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  }
+  
+  .apply-detail {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .apply-detail h2 {
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+  }
+  
+  .apply-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 0;
+  }
+  
+  .apply-info p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 8px;
+  }
+  
+  .apply-button {
+    align-self: center;
+    padding: 8px 16px;
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .apply-button:hover {
+    background-color: #5247db;
+  }
+  

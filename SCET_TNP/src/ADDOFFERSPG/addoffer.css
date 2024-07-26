@@ -1,0 +1,72 @@
+.pmainaddoffercontainer {
+    width: 1120px;
+    height: auto; /* Adjusted to auto to fit content */
+    background-color: #dddff6;
+    margin-left: 288px;
+    margin-top: 19px;
+    border-radius: 39px;
+    position: absolute;
+    box-shadow: 8px 6px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px; /* Added padding for better layout */
+    box-sizing: border-box;
+}
+
+.addofferheading {
+    padding-left: 0px;
+}
+.addofferinputtext
+{
+    font-size: 25px;
+}
+
+
+.addofferheadinline {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    color: black;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Added gap for spacing between form fields */
+    margin-top: 20px;
+}
+
+.addoffertextbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addoffertextbox label {
+    flex: 1;
+}
+
+.addoffertext {
+    flex: 3.5;
+    width: 400px; /* Adjust width to fit within container */
+    height: 30px;
+    margin-left: 0;
+    margin-top: 0;
+    border-radius: 5px;
+    padding: 5px; /* Added padding inside the input */
+    border: 1px solid #ccc; /* Added border for inputs */
+}
+
+button.addoffertext {
+    width: 200px;
+    margin: 20px auto 0; /* Center the button */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button.addoffertext:hover {
+    background-color: #45a049;
+}
