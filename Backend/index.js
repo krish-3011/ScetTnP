@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-const port = 8080;
 const mongoose = require("mongoose");
 const path = require("path");
 const staticRouter = require("./routes/staticRoute.js");
@@ -8,11 +7,14 @@ const offer = require("./routes/offer.js");
 const methodOverride = require("method-override");
 const wrapAsync = require("./utils/wrapAsync.js");
 const cors = require("cors");
+const dotEnv = require("dotenv");
 
-
+dotEnv.config();
+const DB_URL = process.env.DB_URL;
+const PORT = process.env.PORT
 //connecting database
 async function main(){
-    await mongoose.connect("mongodb://127.0.0.1/scetTnP");
+    await mongoose.connect(DB_URL);
 }
 main().then(console.log("Database connected")).catch(err => {console.log(`error in connecting database : ${err}`)});
 
@@ -37,7 +39,7 @@ app.use((err,req,res,next)=>{
 })
 
 //Starting Server
-app.listen(port , '0.0.0.0', ()=>{
+app.listen(PORT, ()=>{
     console.log(`server is listing on port ${port}`);
 }
 );
